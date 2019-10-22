@@ -1,7 +1,10 @@
 #/bin/sh
 
 create_link_home() {
-    ln -s `pwd`/$1 $HOME/.$1
+    arg=$1
+    config_file=$HOME"/."$arg
+    [ -e $config_file ] && mv $config_file $config_file".bak"
+    ln -s `pwd`/$arg $config_file
 }
 
 create_link_home vimrc
