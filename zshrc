@@ -1,5 +1,5 @@
 # update PATH
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=~/bin:$PATH
 
 # display current branch to the right
 autoload -Uz vcs_info
@@ -13,6 +13,7 @@ zstyle ':vcs_info:git:*' formats '%b'
 PROMPT='%m:%1~ %# '
 
 export CLICOLOR=1
+export MONO_GAC_PREFIX="/usr/local/opt/mono"
 
 # require confirmation before delete
 alias rm='rm -i'

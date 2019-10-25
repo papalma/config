@@ -1,0 +1,26 @@
+{
+    // Visual Studio Code configuration file.
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+
+    "files.autoSave": "afterDelay",
+
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "all",
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [
+        90
+    ],
+
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontSize": 14,
+
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#151515"
+    },
+
+    "csharp.referencesCodeLens.enabled": false,
+
+    "omnisharp.path": "latest"
+}
