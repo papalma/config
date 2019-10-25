@@ -13,7 +13,8 @@ zstyle ':vcs_info:git:*' formats '%b'
 PROMPT='%m:%1~ %# '
 
 export CLICOLOR=1
-export MONO_GAC_PREFIX="/usr/local/opt/mono"
+#export MONO_PATH="/usr/local/opt/mono/lib/mono/4.7.2-api"
+#export MONO_GAC_PREFIX="/usr/local"
 
 # require confirmation before delete
 alias rm='rm -i'
