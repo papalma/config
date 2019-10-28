@@ -14,16 +14,17 @@
     "terminal.integrated.copyOnSelection": true,
 
     "window.zoomLevel": 0.4,
-    "workbench.fontAliasing": "auto",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#151515"
     },
 
     "csharp.referencesCodeLens.enabled": false,
-    "csharp.suppressHiddenDiagnostics": false,
 
     "omnisharp.useGlobalMono": "always",
-    "omnisharp.enableRoslynAnalyzers": true,
     
     "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 13,
+    "workbench.fontAliasing": "antialiased",
 }
