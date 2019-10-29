@@ -15,7 +15,9 @@
 
     "window.zoomLevel": 0.4,
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#151515"
+        "editor.lineHighlightBackground": "#000000",
+        "editor.background": "#101010",
+        "terminal.background": "#101010"
     },
 
     "csharp.referencesCodeLens.enabled": false,
