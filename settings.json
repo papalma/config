@@ -28,5 +28,5 @@
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13,
-    "workbench.fontAliasing": "antialiased",
+    "workbench.fontAliasing": "antialiased"
 }
