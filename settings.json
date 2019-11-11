@@ -31,6 +31,6 @@
     "workbench.fontAliasing": "antialiased",
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
-    "ruby.useLanguageServer": true,
+    "ruby.useLanguageServer": true
 }
 
