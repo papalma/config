@@ -1,5 +1,6 @@
 # update PATH
-export PATH=~/bin:$PATH
+export ANDROID_HOME=~/Library/Android/sdk/
+export PATH=~/bin:$PATH:$ANDROID_HOME/platform-tools
 
 # display current branch to the right
 autoload -Uz vcs_info

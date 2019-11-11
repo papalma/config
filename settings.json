@@ -29,4 +29,8 @@
     "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13,
     "workbench.fontAliasing": "antialiased",
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
 }
+
