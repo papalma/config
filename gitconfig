@@ -1,8 +1,0 @@
-[user]
-	name = Patricio Palma
-	email = patriciop@gmail.com
-[alias]
-	co = checkout
-	st = status
-	unstage = reset HEAD --
-	last = log -1 HEAD
