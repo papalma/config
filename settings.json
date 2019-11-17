@@ -4,6 +4,9 @@
     "telemetry.enableCrashReporter": false,
 
     "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+
+    "editor.fontSize": 13,
     "editor.renderWhitespace": "all",
     "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "all",
@@ -12,8 +15,11 @@
     ],
 
     "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontSize": 13,
 
     "window.zoomLevel": 0.4,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#000000",
         "editor.background": "#101010",
@@ -21,16 +27,13 @@
     },
 
     "csharp.referencesCodeLens.enabled": false,
-
-    "omnisharp.useGlobalMono": "always",
+    "omnisharp.path": "latest",
+    "omnisharp.useGlobalMono": "never",
     
-    "explorer.confirmDelete": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.fontSize": 13,
-    "editor.fontSize": 13,
-    "workbench.fontAliasing": "antialiased",
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
-    "ruby.useLanguageServer": true
+    "ruby.useLanguageServer": true,
+
+    "C_Cpp.updateChannel": "Insiders"
 }
 
