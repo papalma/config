@@ -22,3 +22,6 @@ alias rm='rm -i'
 
 # enable ruby
 eval "$(rbenv init -)"
+
+# tab completion feels better
+setopt +o menucomplete
