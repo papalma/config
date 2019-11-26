@@ -27,13 +27,12 @@
     },
 
     "csharp.referencesCodeLens.enabled": false,
-    "omnisharp.path": "latest",
     "omnisharp.useGlobalMono": "never",
     
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
-    "ruby.useLanguageServer": true,
 
-    "C_Cpp.updateChannel": "Insiders"
+    "C_Cpp.updateChannel": "Insiders",
+    "ruby.useLanguageServer": true
 }
 
