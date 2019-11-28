@@ -15,7 +15,7 @@
     ],
 
     "terminal.integrated.copyOnSelection": true,
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 14,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#2a2a2a",
