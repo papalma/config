@@ -16,3 +16,4 @@ create_link_home "$HOME" .gitconfig gitconfig
 
 APP_SUPPORT_DIR="$HOME/Library/Application Support/Code/User"
 create_link_home "$APP_SUPPORT_DIR" settings.json settings.json 
+create_link_home "$APP_SUPPORT_DIR" keybindings.json keybindings.json 
