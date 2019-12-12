@@ -6,7 +6,7 @@
     "files.autoSave": "afterDelay",
     "explorer.confirmDelete": false,
     
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.renderWhitespace": "all",
     "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "all",
@@ -34,6 +34,7 @@
     "C_Cpp.updateChannel": "Insiders",
     "window.zoomLevel": 0,
     "git.untrackedChanges": "separate",
-    "diffEditor.renderSideBySide": false
+    "diffEditor.renderSideBySide": false,
+    "debug.console.fontSize": 13
 }
 
