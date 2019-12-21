@@ -32,7 +32,7 @@
     "ruby.intellisense": "rubyLocate",
 
     "C_Cpp.updateChannel": "Insiders",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 0.1,
     "git.untrackedChanges": "separate",
     "diffEditor.renderSideBySide": false,
     "debug.console.fontSize": 13
