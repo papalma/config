@@ -25,7 +25,6 @@
     },
 
     "csharp.referencesCodeLens.enabled": false,
-    "omnisharp.useGlobalMono": "never",
     
     "ruby.useLanguageServer": true,
     "ruby.codeCompletion": "rcodetools",
