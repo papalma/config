@@ -1,6 +1,9 @@
 # update PATH
-export ANDROID_HOME=~/Library/Android/sdk/
-export PATH=~/bin:$PATH:$ANDROID_HOME/platform-tools
+# export ANDROID_HOME=~/Library/Android/sdk/
+# export PATH=~/bin:$PATH:$ANDROID_HOME/platform-tools
+
+# enable command completion
+autoload -Uz compinit && compinit
 
 # display current branch to the right
 autoload -Uz vcs_info
@@ -13,8 +16,10 @@ zstyle ':vcs_info:git:*' formats '%b'
 # display machine:current folder
 PROMPT='%m:%1~ %# '
 
+# enable color on listing
 export CLICOLOR=1
-#export MONO_PATH="/usr/local/opt/mono/lib/mono/4.7.2-api"
+
+# setup for mono frwk
 #export MONO_GAC_PREFIX="/usr/local"
 
 # require confirmation before delete
@@ -25,3 +30,4 @@ eval "$(rbenv init -)"
 
 # tab completion feels better
 setopt +o menucomplete
+
