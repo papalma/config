@@ -10,9 +10,9 @@
     "editor.renderWhitespace": "all",
     "editor.renderIndentGuides": false,
     "editor.renderLineHighlight": "all",
-    "editor.rulers": [
-        90
-    ],
+    // "editor.rulers": [
+    //     100
+    // ],
     
     "terminal.integrated.fontFamily": "Monaco",
     "terminal.integrated.copyOnSelection": true,
@@ -22,6 +22,8 @@
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#2a2a2a",
         "terminal.background": "#0e0e0e",
+        "editorRuler.foreground": "#2e2e2e",
+        "editorGutter.background": "#171717"
     },
 
     "csharp.referencesCodeLens.enabled": false,
@@ -31,9 +33,25 @@
     "ruby.intellisense": "rubyLocate",
 
     "C_Cpp.updateChannel": "Insiders",
-    "window.zoomLevel": 0.1,
     "git.untrackedChanges": "separate",
-    "diffEditor.renderSideBySide": false,
-    "debug.console.fontSize": 13
+    "debug.console.fontSize": 13,
+    "editor.fontFamily": "Monaco, 'Courier New', monospace",
+    "enableTelemetry": false,
+    "explorer.confirmDragAndDrop": false,
+    "debug.openDebug": "openOnFirstSessionStart",
+    "editor.minimap.enabled": false,
+    "scm.alwaysShowProviders": false,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": 0.7,
+    "omnisharp.useGlobalMono": "always",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "cmake.configureOnOpen": false
 }
 
