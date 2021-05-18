@@ -31,8 +31,6 @@
     "ruby.useLanguageServer": true,
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
-
-    "C_Cpp.updateChannel": "Insiders",
     "git.untrackedChanges": "separate",
     "debug.console.fontSize": 13,
     "editor.fontFamily": "Monaco, 'Courier New', monospace",
@@ -44,7 +42,6 @@
     "workbench.editor.tabCloseButton": "left",
     "workbench.colorTheme": "Visual Studio 2019 Dark",
     "diffEditor.ignoreTrimWhitespace": false,
-    "window.zoomLevel": 0.7,
     "omnisharp.useGlobalMono": "always",
     "workbench.editorAssociations": [
         {
